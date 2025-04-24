@@ -5,15 +5,17 @@ Passos para usar o tradutor:
 2 - Criar um ambiente Venv
 
 2.1 - No terminal: python3 -m venv venv
-      Ativar o ambiente: source venv/bin/activate
+      
+Ativar o ambiente: source venv/bin/activate
 
 2.2 - No Visual Studio Code: Ctrl + Shift + P
       Digite Python: Select Interpreter
-      E escolha o que tem ./venv/bin/python
+      
+E escolha o que tem ./venv/bin/python
 
 3 - Instale a biblioteca Deep-Translator: pip install deep-translator
 
-4 - Importe a biblioteca no seu programa Python: from deep_translator from GoogleTranslator
+4 - Importe a biblioteca no seu programa Python: from deep_translator import GoogleTranslator
 
 5 - Crie ou use o programa desse projeto
 
